@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (orientation: portrait) {
     #main-img {
         width: 100%;
     }
