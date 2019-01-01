@@ -39,7 +39,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header {
-    font-size: 2em;
+    font-size: 7vw;
+    color: #DCC9F1;
+}
+
+#name {
+    position: absolute;
 }
 
 #footer {
