@@ -5,9 +5,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-family: 'Lato', sans-serif;
+    /* background-color: #f5f5f5; */
     /* padding: 15px 0 0 0; */
 }
 
@@ -15,11 +16,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Arvo', sans-serif;
 }
 
+p {
+    margin: 4vh 0;
+}
+
 .strip {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -34,8 +39,45 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
 }
 
+.big-text {
+    width: 60%;
+    /* margin-top: 4vh; */
+    /* margin: 20px auto; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 200%;
+    font-family: 'Arvo', sans-serif;
+    color: #111111;
+    line-height: 1.2em;
+}
+
+.bold {
+    /* font-weight: bold; */
+    /* color: #DF2935; */
+}
+
 #main-img {
     width: 55%;
+}
+
+#mig-headshot {
+    width: 200px;
+    filter: drop-shadow(0px 0px 2px #272727);
+    transition: all 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#mig-headshot-container {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mig-headshot:hover {
+    filter: drop-shadow(0px 0px 0.05px #272727);
+    width: 197px;
+    margin-top:1.5px;
+    margin-left: 1.5px;
 }
 
 #header {
